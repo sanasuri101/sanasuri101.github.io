@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "sanasuri101.github.io",
+  base: "./sanasuri101.github.io",
   optimizeDeps: {
     // include: ['linked-dep'],
   },
